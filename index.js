@@ -7,3 +7,23 @@ const db = require('./data/db.js');
 const server = express();
 
 // CRUD
+
+// Create 
+server.post('', (req, res) => {
+});
+
+// Read 
+server.get('', (req, res) => {
+});
+
+// Update 
+server.put('', (req, res) => {
+});
+
+// Delete 
+server.delete('', (req, res) => {
+});
+
+server.listen(4000, () => {
+    console.log('\n** API up and running on port 4k **');
+});
